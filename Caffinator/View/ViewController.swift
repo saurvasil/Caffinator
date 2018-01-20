@@ -27,6 +27,7 @@ class ViewController: UIViewController, MKMapViewDelegate, CLLocationManagerDele
     @IBOutlet weak var map: MKMapView!
     let manager = CLLocationManager()
     static var bikes = [Bike]()
+    //hello
     
     var selectedBike : Bike? = nil;
     
