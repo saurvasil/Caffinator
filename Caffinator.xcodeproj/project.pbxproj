@@ -7,12 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5435DDA92013CC8800E887F9 /* AccountViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5435DDA82013CC8700E887F9 /* AccountViewController.swift */; };
+		5435DDAB2013CD9A00E887F9 /* ReservationsCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5435DDAA2013CD9A00E887F9 /* ReservationsCollectionViewController.swift */; };
+		5435DDAD2013CE8600E887F9 /* MyBikesCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5435DDAC2013CE8600E887F9 /* MyBikesCollectionViewController.swift */; };
 		54F068191FD115FF00C9083B /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 54F068181FD115FF00C9083B /* GoogleService-Info.plist */; };
 		54F0681B1FD19A5200C9083B /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54F0681A1FD19A5200C9083B /* SignUpViewController.swift */; };
-		54F0681D1FD1AAC600C9083B /* ItemNameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54F0681C1FD1AAC600C9083B /* ItemNameViewController.swift */; };
 		54F0681F1FD1AC4200C9083B /* LogInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54F0681E1FD1AC4200C9083B /* LogInViewController.swift */; };
 		54F068211FD1B20F00C9083B /* ResetPassViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54F068201FD1B20F00C9083B /* ResetPassViewController.swift */; };
-		54F068451FD339E200C9083B /* PersonalInfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54F068441FD339E200C9083B /* PersonalInfoViewController.swift */; };
 		54F068471FD3562100C9083B /* Member.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54F068461FD3562100C9083B /* Member.swift */; };
 		54F068491FD63C7200C9083B /* ReserveViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54F068481FD63C7200C9083B /* ReserveViewController.swift */; };
 		54F0684B1FD6FA5700C9083B /* MyBikesTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54F0684A1FD6FA5700C9083B /* MyBikesTableViewController.swift */; };
@@ -30,12 +31,13 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		5435DDA82013CC8700E887F9 /* AccountViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = AccountViewController.swift; path = /Users/saurvasil/Dropbox/Classes/Fall17/CIS195/Caffinator/Caffinator/View/Account/AccountViewController.swift; sourceTree = "<absolute>"; };
+		5435DDAA2013CD9A00E887F9 /* ReservationsCollectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = ReservationsCollectionViewController.swift; path = View/MapReserve/ReservationsCollectionViewController.swift; sourceTree = "<group>"; };
+		5435DDAC2013CE8600E887F9 /* MyBikesCollectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyBikesCollectionViewController.swift; sourceTree = "<group>"; };
 		54F068181FD115FF00C9083B /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../../../../Downloads/GoogleService-Info.plist"; sourceTree = "<group>"; };
 		54F0681A1FD19A5200C9083B /* SignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
-		54F0681C1FD1AAC600C9083B /* ItemNameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemNameViewController.swift; sourceTree = "<group>"; };
 		54F0681E1FD1AC4200C9083B /* LogInViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogInViewController.swift; sourceTree = "<group>"; };
 		54F068201FD1B20F00C9083B /* ResetPassViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResetPassViewController.swift; sourceTree = "<group>"; };
-		54F068441FD339E200C9083B /* PersonalInfoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonalInfoViewController.swift; sourceTree = "<group>"; };
 		54F068461FD3562100C9083B /* Member.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Member.swift; sourceTree = "<group>"; };
 		54F068481FD63C7200C9083B /* ReserveViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReserveViewController.swift; sourceTree = "<group>"; };
 		54F0684A1FD6FA5700C9083B /* MyBikesTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyBikesTableViewController.swift; sourceTree = "<group>"; };
@@ -76,20 +78,43 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		54C2F7B01FDAEE6800CCDD67 /* View */ = {
+		5435DDA52013CB4400E887F9 /* Auth */ = {
+			isa = PBXGroup;
+			children = (
+				54F068201FD1B20F00C9083B /* ResetPassViewController.swift */,
+				54F0681E1FD1AC4200C9083B /* LogInViewController.swift */,
+				54F0681A1FD19A5200C9083B /* SignUpViewController.swift */,
+			);
+			path = Auth;
+			sourceTree = "<group>";
+		};
+		5435DDA62013CBD300E887F9 /* MapReserve */ = {
 			isa = PBXGroup;
 			children = (
 				98A1B00B1FB435BB0086F0DC /* ViewController.swift */,
-				54F0684A1FD6FA5700C9083B /* MyBikesTableViewController.swift */,
-				54F0681A1FD19A5200C9083B /* SignUpViewController.swift */,
+				54F068481FD63C7200C9083B /* ReserveViewController.swift */,
+			);
+			path = MapReserve;
+			sourceTree = "<group>";
+		};
+		5435DDA72013CC0D00E887F9 /* Account */ = {
+			isa = PBXGroup;
+			children = (
+				5435DDA82013CC8700E887F9 /* AccountViewController.swift */,
 				54F068521FD7868500C9083B /* AddBikeViewController.swift */,
+				5435DDAC2013CE8600E887F9 /* MyBikesCollectionViewController.swift */,
+			);
+			path = Account;
+			sourceTree = "<group>";
+		};
+		54C2F7B01FDAEE6800CCDD67 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				5435DDA72013CC0D00E887F9 /* Account */,
+				5435DDA62013CBD300E887F9 /* MapReserve */,
+				5435DDA52013CB4400E887F9 /* Auth */,
 				54F068501FD74B6100C9083B /* MyReservationViewController.swift */,
 				54F0684E1FD6FFF900C9083B /* TabViewController.swift */,
-				54F0681C1FD1AAC600C9083B /* ItemNameViewController.swift */,
-				54F0681E1FD1AC4200C9083B /* LogInViewController.swift */,
-				54F068201FD1B20F00C9083B /* ResetPassViewController.swift */,
-				54F068481FD63C7200C9083B /* ReserveViewController.swift */,
-				54F068441FD339E200C9083B /* PersonalInfoViewController.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -138,6 +163,8 @@
 				54C2F7B01FDAEE6800CCDD67 /* View */,
 				54F068181FD115FF00C9083B /* GoogleService-Info.plist */,
 				98A1B00D1FB435BB0086F0DC /* Main.storyboard */,
+				54F0684A1FD6FA5700C9083B /* MyBikesTableViewController.swift */,
+				5435DDAA2013CD9A00E887F9 /* ReservationsCollectionViewController.swift */,
 				98A1B0101FB435BB0086F0DC /* Assets.xcassets */,
 				98A1B0121FB435BB0086F0DC /* LaunchScreen.storyboard */,
 				98A1B0151FB435BB0086F0DC /* Info.plist */,
@@ -293,19 +320,20 @@
 			files = (
 				98A1B00C1FB435BB0086F0DC /* ViewController.swift in Sources */,
 				54F068491FD63C7200C9083B /* ReserveViewController.swift in Sources */,
+				5435DDA92013CC8800E887F9 /* AccountViewController.swift in Sources */,
 				54F068211FD1B20F00C9083B /* ResetPassViewController.swift in Sources */,
 				98A1B0201FB4DB0A0086F0DC /* Bike.swift in Sources */,
 				54F0684B1FD6FA5700C9083B /* MyBikesTableViewController.swift in Sources */,
+				5435DDAB2013CD9A00E887F9 /* ReservationsCollectionViewController.swift in Sources */,
 				54F068531FD7868500C9083B /* AddBikeViewController.swift in Sources */,
 				54F068511FD74B6100C9083B /* MyReservationViewController.swift in Sources */,
 				98A1B00A1FB435BB0086F0DC /* AppDelegate.swift in Sources */,
 				54F0681F1FD1AC4200C9083B /* LogInViewController.swift in Sources */,
 				98A1B01E1FB4D8CD0086F0DC /* FirebaseDataManager.swift in Sources */,
-				54F0681D1FD1AAC600C9083B /* ItemNameViewController.swift in Sources */,
-				54F068451FD339E200C9083B /* PersonalInfoViewController.swift in Sources */,
 				54F0681B1FD19A5200C9083B /* SignUpViewController.swift in Sources */,
 				54F0684F1FD6FFF900C9083B /* TabViewController.swift in Sources */,
 				54F068471FD3562100C9083B /* Member.swift in Sources */,
+				5435DDAD2013CE8600E887F9 /* MyBikesCollectionViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
