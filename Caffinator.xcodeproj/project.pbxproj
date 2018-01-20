@@ -1,0 +1,493 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		54F068191FD115FF00C9083B /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 54F068181FD115FF00C9083B /* GoogleService-Info.plist */; };
+		54F0681B1FD19A5200C9083B /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54F0681A1FD19A5200C9083B /* SignUpViewController.swift */; };
+		54F0681D1FD1AAC600C9083B /* ItemNameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54F0681C1FD1AAC600C9083B /* ItemNameViewController.swift */; };
+		54F0681F1FD1AC4200C9083B /* LogInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54F0681E1FD1AC4200C9083B /* LogInViewController.swift */; };
+		54F068211FD1B20F00C9083B /* ResetPassViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54F068201FD1B20F00C9083B /* ResetPassViewController.swift */; };
+		54F068451FD339E200C9083B /* PersonalInfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54F068441FD339E200C9083B /* PersonalInfoViewController.swift */; };
+		54F068471FD3562100C9083B /* Member.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54F068461FD3562100C9083B /* Member.swift */; };
+		54F068491FD63C7200C9083B /* ReserveViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54F068481FD63C7200C9083B /* ReserveViewController.swift */; };
+		54F0684B1FD6FA5700C9083B /* MyBikesTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54F0684A1FD6FA5700C9083B /* MyBikesTableViewController.swift */; };
+		54F0684F1FD6FFF900C9083B /* TabViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54F0684E1FD6FFF900C9083B /* TabViewController.swift */; };
+		54F068511FD74B6100C9083B /* MyReservationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54F068501FD74B6100C9083B /* MyReservationViewController.swift */; };
+		54F068531FD7868500C9083B /* AddBikeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54F068521FD7868500C9083B /* AddBikeViewController.swift */; };
+		98A1B00A1FB435BB0086F0DC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98A1B0091FB435BB0086F0DC /* AppDelegate.swift */; };
+		98A1B00C1FB435BB0086F0DC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98A1B00B1FB435BB0086F0DC /* ViewController.swift */; };
+		98A1B00F1FB435BB0086F0DC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 98A1B00D1FB435BB0086F0DC /* Main.storyboard */; };
+		98A1B0111FB435BB0086F0DC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 98A1B0101FB435BB0086F0DC /* Assets.xcassets */; };
+		98A1B0141FB435BB0086F0DC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 98A1B0121FB435BB0086F0DC /* LaunchScreen.storyboard */; };
+		98A1B01E1FB4D8CD0086F0DC /* FirebaseDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98A1B01D1FB4D8CD0086F0DC /* FirebaseDataManager.swift */; };
+		98A1B0201FB4DB0A0086F0DC /* Bike.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98A1B01F1FB4DB0A0086F0DC /* Bike.swift */; };
+		FE450B8911FB582EC46E6902 /* Pods_Caffinator.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D37347C288637C96C1851977 /* Pods_Caffinator.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		54F068181FD115FF00C9083B /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../../../../Downloads/GoogleService-Info.plist"; sourceTree = "<group>"; };
+		54F0681A1FD19A5200C9083B /* SignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
+		54F0681C1FD1AAC600C9083B /* ItemNameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemNameViewController.swift; sourceTree = "<group>"; };
+		54F0681E1FD1AC4200C9083B /* LogInViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogInViewController.swift; sourceTree = "<group>"; };
+		54F068201FD1B20F00C9083B /* ResetPassViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResetPassViewController.swift; sourceTree = "<group>"; };
+		54F068441FD339E200C9083B /* PersonalInfoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonalInfoViewController.swift; sourceTree = "<group>"; };
+		54F068461FD3562100C9083B /* Member.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Member.swift; sourceTree = "<group>"; };
+		54F068481FD63C7200C9083B /* ReserveViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReserveViewController.swift; sourceTree = "<group>"; };
+		54F0684A1FD6FA5700C9083B /* MyBikesTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyBikesTableViewController.swift; sourceTree = "<group>"; };
+		54F0684E1FD6FFF900C9083B /* TabViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabViewController.swift; sourceTree = "<group>"; };
+		54F068501FD74B6100C9083B /* MyReservationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyReservationViewController.swift; sourceTree = "<group>"; };
+		54F068521FD7868500C9083B /* AddBikeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddBikeViewController.swift; sourceTree = "<group>"; };
+		5CA8E36B61B184D6E14DBC2A /* Pods-Caffinator.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Caffinator.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Caffinator/Pods-Caffinator.debug.xcconfig"; sourceTree = "<group>"; };
+		98A1B0061FB435BB0086F0DC /* Caffinator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Caffinator.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		98A1B0091FB435BB0086F0DC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		98A1B00B1FB435BB0086F0DC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		98A1B00E1FB435BB0086F0DC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		98A1B0101FB435BB0086F0DC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		98A1B0131FB435BB0086F0DC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		98A1B0151FB435BB0086F0DC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		98A1B01D1FB4D8CD0086F0DC /* FirebaseDataManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FirebaseDataManager.swift; sourceTree = "<group>"; };
+		98A1B01F1FB4DB0A0086F0DC /* Bike.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Bike.swift; sourceTree = "<group>"; };
+		C1E46FAA6FCBCE427653F572 /* Pods-Caffinator.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Caffinator.release.xcconfig"; path = "Pods/Target Support Files/Pods-Caffinator/Pods-Caffinator.release.xcconfig"; sourceTree = "<group>"; };
+		D37347C288637C96C1851977 /* Pods_Caffinator.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Caffinator.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		98A1B0031FB435BB0086F0DC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FE450B8911FB582EC46E6902 /* Pods_Caffinator.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		29220CE720F3EE0A72224E48 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D37347C288637C96C1851977 /* Pods_Caffinator.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		54C2F7B01FDAEE6800CCDD67 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				98A1B00B1FB435BB0086F0DC /* ViewController.swift */,
+				54F0684A1FD6FA5700C9083B /* MyBikesTableViewController.swift */,
+				54F0681A1FD19A5200C9083B /* SignUpViewController.swift */,
+				54F068521FD7868500C9083B /* AddBikeViewController.swift */,
+				54F068501FD74B6100C9083B /* MyReservationViewController.swift */,
+				54F0684E1FD6FFF900C9083B /* TabViewController.swift */,
+				54F0681C1FD1AAC600C9083B /* ItemNameViewController.swift */,
+				54F0681E1FD1AC4200C9083B /* LogInViewController.swift */,
+				54F068201FD1B20F00C9083B /* ResetPassViewController.swift */,
+				54F068481FD63C7200C9083B /* ReserveViewController.swift */,
+				54F068441FD339E200C9083B /* PersonalInfoViewController.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		54C2F7B11FDAEE9D00CCDD67 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				98A1B01F1FB4DB0A0086F0DC /* Bike.swift */,
+				54F068461FD3562100C9083B /* Member.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		54C2F7B21FDAEEB900CCDD67 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				98A1B01D1FB4D8CD0086F0DC /* FirebaseDataManager.swift */,
+				98A1B0091FB435BB0086F0DC /* AppDelegate.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		98A1AFFD1FB435BB0086F0DC = {
+			isa = PBXGroup;
+			children = (
+				98A1B0081FB435BB0086F0DC /* Caffinator */,
+				98A1B0071FB435BB0086F0DC /* Products */,
+				E9C14E6D938C345AE14A7D94 /* Pods */,
+				29220CE720F3EE0A72224E48 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		98A1B0071FB435BB0086F0DC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				98A1B0061FB435BB0086F0DC /* Caffinator.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		98A1B0081FB435BB0086F0DC /* Caffinator */ = {
+			isa = PBXGroup;
+			children = (
+				54C2F7B21FDAEEB900CCDD67 /* Controller */,
+				54C2F7B11FDAEE9D00CCDD67 /* Model */,
+				54C2F7B01FDAEE6800CCDD67 /* View */,
+				54F068181FD115FF00C9083B /* GoogleService-Info.plist */,
+				98A1B00D1FB435BB0086F0DC /* Main.storyboard */,
+				98A1B0101FB435BB0086F0DC /* Assets.xcassets */,
+				98A1B0121FB435BB0086F0DC /* LaunchScreen.storyboard */,
+				98A1B0151FB435BB0086F0DC /* Info.plist */,
+			);
+			path = Caffinator;
+			sourceTree = "<group>";
+		};
+		E9C14E6D938C345AE14A7D94 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				5CA8E36B61B184D6E14DBC2A /* Pods-Caffinator.debug.xcconfig */,
+				C1E46FAA6FCBCE427653F572 /* Pods-Caffinator.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		98A1B0051FB435BB0086F0DC /* Caffinator */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 98A1B0181FB435BB0086F0DC /* Build configuration list for PBXNativeTarget "Caffinator" */;
+			buildPhases = (
+				E6105BD72FB68C88253DA24F /* [CP] Check Pods Manifest.lock */,
+				98A1B0021FB435BB0086F0DC /* Sources */,
+				98A1B0031FB435BB0086F0DC /* Frameworks */,
+				98A1B0041FB435BB0086F0DC /* Resources */,
+				A36425E7BDDA2B860183977E /* [CP] Embed Pods Frameworks */,
+				9CC23D1DED2CF749004F1CAD /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Caffinator;
+			productName = Caffinator;
+			productReference = 98A1B0061FB435BB0086F0DC /* Caffinator.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		98A1AFFE1FB435BB0086F0DC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0910;
+				ORGANIZATIONNAME = cis195;
+				TargetAttributes = {
+					98A1B0051FB435BB0086F0DC = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = N4963EZCDT;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 98A1B0011FB435BB0086F0DC /* Build configuration list for PBXProject "Caffinator" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 98A1AFFD1FB435BB0086F0DC;
+			productRefGroup = 98A1B0071FB435BB0086F0DC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				98A1B0051FB435BB0086F0DC /* Caffinator */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		98A1B0041FB435BB0086F0DC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				98A1B0141FB435BB0086F0DC /* LaunchScreen.storyboard in Resources */,
+				98A1B0111FB435BB0086F0DC /* Assets.xcassets in Resources */,
+				54F068191FD115FF00C9083B /* GoogleService-Info.plist in Resources */,
+				98A1B00F1FB435BB0086F0DC /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		9CC23D1DED2CF749004F1CAD /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Caffinator/Pods-Caffinator-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A36425E7BDDA2B860183977E /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Caffinator/Pods-Caffinator-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleToolboxForMac/GoogleToolboxForMac.framework",
+				"${BUILT_PRODUCTS_DIR}/leveldb-library/leveldb.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleToolboxForMac.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/leveldb.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Caffinator/Pods-Caffinator-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E6105BD72FB68C88253DA24F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Caffinator-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		98A1B0021FB435BB0086F0DC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				98A1B00C1FB435BB0086F0DC /* ViewController.swift in Sources */,
+				54F068491FD63C7200C9083B /* ReserveViewController.swift in Sources */,
+				54F068211FD1B20F00C9083B /* ResetPassViewController.swift in Sources */,
+				98A1B0201FB4DB0A0086F0DC /* Bike.swift in Sources */,
+				54F0684B1FD6FA5700C9083B /* MyBikesTableViewController.swift in Sources */,
+				54F068531FD7868500C9083B /* AddBikeViewController.swift in Sources */,
+				54F068511FD74B6100C9083B /* MyReservationViewController.swift in Sources */,
+				98A1B00A1FB435BB0086F0DC /* AppDelegate.swift in Sources */,
+				54F0681F1FD1AC4200C9083B /* LogInViewController.swift in Sources */,
+				98A1B01E1FB4D8CD0086F0DC /* FirebaseDataManager.swift in Sources */,
+				54F0681D1FD1AAC600C9083B /* ItemNameViewController.swift in Sources */,
+				54F068451FD339E200C9083B /* PersonalInfoViewController.swift in Sources */,
+				54F0681B1FD19A5200C9083B /* SignUpViewController.swift in Sources */,
+				54F0684F1FD6FFF900C9083B /* TabViewController.swift in Sources */,
+				54F068471FD3562100C9083B /* Member.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		98A1B00D1FB435BB0086F0DC /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				98A1B00E1FB435BB0086F0DC /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		98A1B0121FB435BB0086F0DC /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				98A1B0131FB435BB0086F0DC /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		98A1B0161FB435BB0086F0DC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		98A1B0171FB435BB0086F0DC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		98A1B0191FB435BB0086F0DC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5CA8E36B61B184D6E14DBC2A /* Pods-Caffinator.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = N4963EZCDT;
+				INFOPLIST_FILE = Caffinator/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = edu.upenn.cis195.saurabhv.BikeApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		98A1B01A1FB435BB0086F0DC /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C1E46FAA6FCBCE427653F572 /* Pods-Caffinator.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = N4963EZCDT;
+				INFOPLIST_FILE = Caffinator/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = edu.upenn.cis195.saurabhv.BikeApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		98A1B0011FB435BB0086F0DC /* Build configuration list for PBXProject "Caffinator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				98A1B0161FB435BB0086F0DC /* Debug */,
+				98A1B0171FB435BB0086F0DC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		98A1B0181FB435BB0086F0DC /* Build configuration list for PBXNativeTarget "Caffinator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				98A1B0191FB435BB0086F0DC /* Debug */,
+				98A1B01A1FB435BB0086F0DC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 98A1AFFE1FB435BB0086F0DC /* Project object */;
+}
