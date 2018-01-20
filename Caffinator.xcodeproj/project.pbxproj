@@ -31,7 +31,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		5435DDA82013CC8700E887F9 /* AccountViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = AccountViewController.swift; path = /Users/saurvasil/Dropbox/Classes/Fall17/CIS195/Caffinator/Caffinator/View/Account/AccountViewController.swift; sourceTree = "<absolute>"; };
+		5435DDA82013CC8700E887F9 /* AccountViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountViewController.swift; sourceTree = "<group>"; };
 		5435DDAA2013CD9A00E887F9 /* ReservationsCollectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = ReservationsCollectionViewController.swift; path = View/MapReserve/ReservationsCollectionViewController.swift; sourceTree = "<group>"; };
 		5435DDAC2013CE8600E887F9 /* MyBikesCollectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyBikesCollectionViewController.swift; sourceTree = "<group>"; };
 		54F068181FD115FF00C9083B /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../../../../Downloads/GoogleService-Info.plist"; sourceTree = "<group>"; };
