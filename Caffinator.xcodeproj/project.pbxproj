@@ -59,7 +59,7 @@
 		C1E46FAA6FCBCE427653F572 /* Pods-Caffinator.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Caffinator.release.xcconfig"; path = "Pods/Target Support Files/Pods-Caffinator/Pods-Caffinator.release.xcconfig"; sourceTree = "<group>"; };
 		D37347C288637C96C1851977 /* Pods_Caffinator.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Caffinator.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		EB87E0C32013E65300761983 /* gifPlayer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = gifPlayer.swift; sourceTree = "<group>"; };
-		EB87E0D32014309B00761983 /* giphy-2.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; name = "giphy-2.gif"; path = "Caffinator/Controller/Pictures/giphy-2.gif"; sourceTree = SOURCE_ROOT; };
+		EB87E0D32014309B00761983 /* giphy-2.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; name = "giphy-2.gif"; path = "Caffinator/Controller/Pictures/giphy-2.gif"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
