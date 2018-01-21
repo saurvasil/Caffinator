@@ -27,6 +27,11 @@
 		98A1B0141FB435BB0086F0DC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 98A1B0121FB435BB0086F0DC /* LaunchScreen.storyboard */; };
 		98A1B01E1FB4D8CD0086F0DC /* FirebaseDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98A1B01D1FB4D8CD0086F0DC /* FirebaseDataManager.swift */; };
 		98A1B0201FB4DB0A0086F0DC /* Bike.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98A1B01F1FB4DB0A0086F0DC /* Bike.swift */; };
+		EB87E0C22013E2BC00761983 /* giphy.gif in Resources */ = {isa = PBXBuildFile; fileRef = EB87E0C12013E2BB00761983 /* giphy.gif */; };
+		EB87E0C42013E65300761983 /* gifPlayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB87E0C32013E65300761983 /* gifPlayer.swift */; };
+		EB87E0C82013EC0400761983 /* newgiphy-2.gif in Resources */ = {isa = PBXBuildFile; fileRef = EB87E0C72013EC0400761983 /* newgiphy-2.gif */; };
+		EB87E0CE2013F30200761983 /* bikeGif.gif in Resources */ = {isa = PBXBuildFile; fileRef = EB87E0CD2013F2FF00761983 /* bikeGif.gif */; };
+		EB87E0D02013F39E00761983 /* giphy-2.gif in Resources */ = {isa = PBXBuildFile; fileRef = EB87E0CF2013F39E00761983 /* giphy-2.gif */; };
 		FE450B8911FB582EC46E6902 /* Pods_Caffinator.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D37347C288637C96C1851977 /* Pods_Caffinator.framework */; };
 /* End PBXBuildFile section */
 
@@ -34,7 +39,7 @@
 		5435DDA82013CC8700E887F9 /* AccountViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountViewController.swift; sourceTree = "<group>"; };
 		5435DDAA2013CD9A00E887F9 /* ReservationsCollectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = ReservationsCollectionViewController.swift; path = View/MapReserve/ReservationsCollectionViewController.swift; sourceTree = "<group>"; };
 		5435DDAC2013CE8600E887F9 /* MyBikesCollectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyBikesCollectionViewController.swift; sourceTree = "<group>"; };
-		54F068181FD115FF00C9083B /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../../../../Downloads/GoogleService-Info.plist"; sourceTree = "<group>"; };
+		54F068181FD115FF00C9083B /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "/Users/anujvasil/Desktop/Caffinator/Caffinator/GoogleService-Info.plist"; sourceTree = "<absolute>"; };
 		54F0681A1FD19A5200C9083B /* SignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
 		54F0681E1FD1AC4200C9083B /* LogInViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogInViewController.swift; sourceTree = "<group>"; };
 		54F068201FD1B20F00C9083B /* ResetPassViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResetPassViewController.swift; sourceTree = "<group>"; };
@@ -56,6 +61,11 @@
 		98A1B01F1FB4DB0A0086F0DC /* Bike.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Bike.swift; sourceTree = "<group>"; };
 		C1E46FAA6FCBCE427653F572 /* Pods-Caffinator.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Caffinator.release.xcconfig"; path = "Pods/Target Support Files/Pods-Caffinator/Pods-Caffinator.release.xcconfig"; sourceTree = "<group>"; };
 		D37347C288637C96C1851977 /* Pods_Caffinator.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Caffinator.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		EB87E0C12013E2BB00761983 /* giphy.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; name = giphy.gif; path = ../../../giphy.gif; sourceTree = "<group>"; };
+		EB87E0C32013E65300761983 /* gifPlayer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = gifPlayer.swift; sourceTree = "<group>"; };
+		EB87E0C72013EC0400761983 /* newgiphy-2.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; name = "newgiphy-2.gif"; path = "../../../newgiphy-2.gif"; sourceTree = "<group>"; };
+		EB87E0CD2013F2FF00761983 /* bikeGif.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; name = bikeGif.gif; path = ../../../bikeGif.gif; sourceTree = "<group>"; };
+		EB87E0CF2013F39E00761983 /* giphy-2.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; name = "giphy-2.gif"; path = "../../../giphy-2.gif"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -158,6 +168,7 @@
 		98A1B0081FB435BB0086F0DC /* Caffinator */ = {
 			isa = PBXGroup;
 			children = (
+				EB87E0C02013E29500761983 /* Pictures */,
 				54C2F7B21FDAEEB900CCDD67 /* Controller */,
 				54C2F7B11FDAEE9D00CCDD67 /* Model */,
 				54C2F7B01FDAEE6800CCDD67 /* View */,
@@ -168,6 +179,7 @@
 				98A1B0101FB435BB0086F0DC /* Assets.xcassets */,
 				98A1B0121FB435BB0086F0DC /* LaunchScreen.storyboard */,
 				98A1B0151FB435BB0086F0DC /* Info.plist */,
+				EB87E0C32013E65300761983 /* gifPlayer.swift */,
 			);
 			path = Caffinator;
 			sourceTree = "<group>";
@@ -179,6 +191,17 @@
 				C1E46FAA6FCBCE427653F572 /* Pods-Caffinator.release.xcconfig */,
 			);
 			name = Pods;
+			sourceTree = "<group>";
+		};
+		EB87E0C02013E29500761983 /* Pictures */ = {
+			isa = PBXGroup;
+			children = (
+				EB87E0C12013E2BB00761983 /* giphy.gif */,
+				EB87E0C72013EC0400761983 /* newgiphy-2.gif */,
+				EB87E0CD2013F2FF00761983 /* bikeGif.gif */,
+				EB87E0CF2013F39E00761983 /* giphy-2.gif */,
+			);
+			path = Pictures;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -216,7 +239,7 @@
 				TargetAttributes = {
 					98A1B0051FB435BB0086F0DC = {
 						CreatedOnToolsVersion = 8.3.3;
-						DevelopmentTeam = N4963EZCDT;
+						DevelopmentTeam = 2FT2J342P5;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -244,10 +267,14 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EB87E0CE2013F30200761983 /* bikeGif.gif in Resources */,
+				EB87E0C22013E2BC00761983 /* giphy.gif in Resources */,
 				98A1B0141FB435BB0086F0DC /* LaunchScreen.storyboard in Resources */,
+				EB87E0C82013EC0400761983 /* newgiphy-2.gif in Resources */,
 				98A1B0111FB435BB0086F0DC /* Assets.xcassets in Resources */,
 				54F068191FD115FF00C9083B /* GoogleService-Info.plist in Resources */,
 				98A1B00F1FB435BB0086F0DC /* Main.storyboard in Resources */,
+				EB87E0D02013F39E00761983 /* giphy-2.gif in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -322,6 +349,7 @@
 				54F068491FD63C7200C9083B /* ReserveViewController.swift in Sources */,
 				5435DDA92013CC8800E887F9 /* AccountViewController.swift in Sources */,
 				54F068211FD1B20F00C9083B /* ResetPassViewController.swift in Sources */,
+				EB87E0C42013E65300761983 /* gifPlayer.swift in Sources */,
 				98A1B0201FB4DB0A0086F0DC /* Bike.swift in Sources */,
 				54F0684B1FD6FA5700C9083B /* MyBikesTableViewController.swift in Sources */,
 				5435DDAB2013CD9A00E887F9 /* ReservationsCollectionViewController.swift in Sources */,
@@ -471,7 +499,7 @@
 			baseConfigurationReference = 5CA8E36B61B184D6E14DBC2A /* Pods-Caffinator.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = N4963EZCDT;
+				DEVELOPMENT_TEAM = 2FT2J342P5;
 				INFOPLIST_FILE = Caffinator/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = edu.upenn.cis195.saurabhv.BikeApp;
@@ -485,7 +513,7 @@
 			baseConfigurationReference = C1E46FAA6FCBCE427653F572 /* Pods-Caffinator.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = N4963EZCDT;
+				DEVELOPMENT_TEAM = 2FT2J342P5;
 				INFOPLIST_FILE = Caffinator/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = edu.upenn.cis195.saurabhv.BikeApp;
