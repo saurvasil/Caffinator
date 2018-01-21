@@ -25,12 +25,7 @@ UINavigationControllerDelegate {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        let logo = UIImage(named: "LOGOYA")
-    
-        let imageView = UIImageView(image:logo)
-        imageView.contentMode = .scaleAspectFit
-        imageView.frame = CGRect(x: 0, y: 0, width: 30, height: 30)
-        navItem.titleView = imageView
+        
         
         self.hideKeyboardWhenTappedAround()
         NotificationCenter.default.addObserver(self, selector: #selector(PersonalInfoViewController.keyboardWillShow), name: NSNotification.Name.UIKeyboardWillShow, object: nil)
