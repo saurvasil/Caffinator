@@ -252,15 +252,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EB87E0CE2013F30200761983 /* bikeGif.gif in Resources */,
-				EB87E0C22013E2BC00761983 /* giphy.gif in Resources */,
+				EB87E0D42014309B00761983 /* giphy-2.gif in Resources */,
 				98A1B0141FB435BB0086F0DC /* LaunchScreen.storyboard in Resources */,
-				EB87E0C82013EC0400761983 /* newgiphy-2.gif in Resources */,
 				98A1B0111FB435BB0086F0DC /* Assets.xcassets in Resources */,
 				540C27372014196200D7F376 /* Screen Shot 2018-01-20 at 7.41.04 PM.png in Resources */,
 				54F068191FD115FF00C9083B /* GoogleService-Info.plist in Resources */,
 				98A1B00F1FB435BB0086F0DC /* Main.storyboard in Resources */,
-				EB87E0D02013F39E00761983 /* giphy-2.gif in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
