@@ -1,10 +1,4 @@
-//
-//  Cafe.swift
-//  Caffinator
-//
-//  Created by Akash Subramanian on 11/9/17.
-//  Copyright © 2017 cis195. All rights reserved.
-//
+
 
 import Foundation
 import UIKit

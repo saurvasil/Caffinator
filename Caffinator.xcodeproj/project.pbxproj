@@ -16,6 +16,7 @@
 		54C8764D20143429002A513E /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 54C8764C20143428002A513E /* GoogleService-Info.plist */; };
 		54C8765020144479002A513E /* ItemNameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54C8764E20144479002A513E /* ItemNameViewController.swift */; };
 		54C8765120144479002A513E /* PersonalInfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54C8764F20144479002A513E /* PersonalInfoViewController.swift */; };
+		54C87653201465EB002A513E /* Screen Shot 2018-01-21 at 1.08.15 AM.png in Resources */ = {isa = PBXBuildFile; fileRef = 54C87652201465EB002A513E /* Screen Shot 2018-01-21 at 1.08.15 AM.png */; };
 		54F0681B1FD19A5200C9083B /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54F0681A1FD19A5200C9083B /* SignUpViewController.swift */; };
 		54F0681F1FD1AC4200C9083B /* LogInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54F0681E1FD1AC4200C9083B /* LogInViewController.swift */; };
 		54F068211FD1B20F00C9083B /* ResetPassViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54F068201FD1B20F00C9083B /* ResetPassViewController.swift */; };
@@ -49,6 +50,7 @@
 		54C8764C20143428002A513E /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "Caffinator/GoogleService-Info.plist"; sourceTree = SOURCE_ROOT; };
 		54C8764E20144479002A513E /* ItemNameViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ItemNameViewController.swift; sourceTree = "<group>"; };
 		54C8764F20144479002A513E /* PersonalInfoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PersonalInfoViewController.swift; sourceTree = "<group>"; };
+		54C87652201465EB002A513E /* Screen Shot 2018-01-21 at 1.08.15 AM.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Screen Shot 2018-01-21 at 1.08.15 AM.png"; sourceTree = "<group>"; };
 		54F0681A1FD19A5200C9083B /* SignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
 		54F0681E1FD1AC4200C9083B /* LogInViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogInViewController.swift; sourceTree = "<group>"; };
 		54F068201FD1B20F00C9083B /* ResetPassViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResetPassViewController.swift; sourceTree = "<group>"; };
@@ -198,6 +200,7 @@
 				EB8363182014503D0033DD53 /* blur.jpeg */,
 				EB83631A201451540033DD53 /* profile.png */,
 				98A1B0101FB435BB0086F0DC /* Assets.xcassets */,
+				54C87652201465EB002A513E /* Screen Shot 2018-01-21 at 1.08.15 AM.png */,
 				98A1B0121FB435BB0086F0DC /* LaunchScreen.storyboard */,
 				98A1B0151FB435BB0086F0DC /* Info.plist */,
 				EB87E0C32013E65300761983 /* gifPlayer.swift */,
@@ -277,6 +280,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				54C87653201465EB002A513E /* Screen Shot 2018-01-21 at 1.08.15 AM.png in Resources */,
 				98A1B0141FB435BB0086F0DC /* LaunchScreen.storyboard in Resources */,
 				98A1B0111FB435BB0086F0DC /* Assets.xcassets in Resources */,
 				540C27372014196200D7F376 /* Screen Shot 2018-01-20 at 7.41.04 PM.png in Resources */,
