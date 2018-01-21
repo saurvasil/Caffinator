@@ -13,9 +13,12 @@ class LogInViewController: UIViewController {
     @IBOutlet weak var usernameTextField: UITextField!
     @IBOutlet weak var passwordTextField: UITextField!
     
+    @IBOutlet var gif: UIImageView!
     override func viewDidLoad() {
         super.viewDidLoad()
-        self.hideKeyboardWhenTappedAround() 
+        self.hideKeyboardWhenTappedAround()
+        
+        gif.loadGif(name: "giphy-2")
         // Do any additional setup after loading the view.
     }
 
@@ -23,6 +26,8 @@ class LogInViewController: UIViewController {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
+    
+    
     
     @IBAction func submitCredentials(_ sender: UIButton) {
         if (usernameTextField.text! == "" || passwordTextField.text! == "") {
