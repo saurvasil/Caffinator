@@ -14,7 +14,6 @@ UINavigationControllerDelegate {
     @IBOutlet weak var firstNameText: UITextField!
     @IBOutlet weak var lastNameText: UITextField!
     @IBOutlet weak var addressLine1: UITextField!
-    @IBOutlet weak var addressLine2: UITextField!
     @IBOutlet weak var cityText: UITextField!
     @IBOutlet weak var zipText: UITextField!
     @IBOutlet weak var stateText: UITextField!
@@ -25,8 +24,26 @@ UINavigationControllerDelegate {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        self.hideKeyboardWhenTappedAround() 
+        self.hideKeyboardWhenTappedAround()
+        NotificationCenter.default.addObserver(self, selector: #selector(PersonalInfoViewController.keyboardWillShow), name: NSNotification.Name.UIKeyboardWillShow, object: nil)
+        NotificationCenter.default.addObserver(self, selector: #selector(PersonalInfoViewController.keyboardWillHide), name: NSNotification.Name.UIKeyboardWillHide, object: nil)
         // Do any additional setup after loading the view.
+    }
+    
+    @objc func keyboardWillShow(notification: NSNotification) {
+        if let keyboardSize = (notification.userInfo?[UIKeyboardFrameEndUserInfoKey] as? NSValue)?.cgRectValue {
+            if self.view.frame.origin.y == 0{
+                self.view.frame.origin.y -= keyboardSize.height
+            }
+        }
+    }
+    
+    @objc func keyboardWillHide(notification: NSNotification) {
+        if let keyboardSize = (notification.userInfo?[UIKeyboardFrameEndUserInfoKey] as? NSValue)?.cgRectValue {
+            if self.view.frame.origin.y != 0{
+                self.view.frame.origin.y += keyboardSize.height
+            }
+        }
     }
 
     override func didReceiveMemoryWarning() {
@@ -66,7 +83,7 @@ UINavigationControllerDelegate {
     @IBAction func submitButton(_ sender: UIButton) {
         let fName = firstNameText.text!
         let lName = lastNameText.text!
-        let address = addressLine1.text! + " " + addressLine2.text! + " " + cityText.text! + " " + stateText.text!
+        let address = addressLine1.text! + " " + cityText.text! + " " + stateText.text!
         let picture = image!
         let phoneNumber = phoneNUmber.text!
         let bikes : [Bike] = []
