@@ -2215,7 +2215,7 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "Caffinator/MyBikesTableViewController.swift"
-            timestampString = "534405293.276057"
+            timestampString = "538195007.436446"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "14"
@@ -2308,7 +2308,7 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "Caffinator/MyBikesTableViewController.swift"
-            timestampString = "534405293.276403"
+            timestampString = "538195007.436875"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "15"
@@ -2401,12 +2401,12 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "Caffinator/MyBikesTableViewController.swift"
-            timestampString = "534405293.276633"
+            timestampString = "538195007.437115"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "66"
             endingLineNumber = "66"
-            landmarkName = "tableView(_:cellForRowAt:)"
+            landmarkName = "didReceiveMemoryWarning()"
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
@@ -2417,12 +2417,12 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "Caffinator/MyBikesTableViewController.swift"
-            timestampString = "534405293.276834"
+            timestampString = "538195007.437359"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "69"
             endingLineNumber = "69"
-            landmarkName = "tableView(_:cellForRowAt:)"
+            landmarkName = "didReceiveMemoryWarning()"
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
@@ -2433,12 +2433,12 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "Caffinator/MyBikesTableViewController.swift"
-            timestampString = "534405293.277031"
+            timestampString = "538195007.437591"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "67"
             endingLineNumber = "67"
-            landmarkName = "tableView(_:cellForRowAt:)"
+            landmarkName = "didReceiveMemoryWarning()"
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
@@ -2449,13 +2449,13 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "Caffinator/MyBikesTableViewController.swift"
-            timestampString = "534405293.277249"
+            timestampString = "538195007.437824"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "70"
             endingLineNumber = "70"
-            landmarkName = "tableView(_:cellForRowAt:)"
-            landmarkType = "7">
+            landmarkName = "MyBikesTableViewController"
+            landmarkType = "3">
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
@@ -2465,13 +2465,13 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "Caffinator/MyBikesTableViewController.swift"
-            timestampString = "534405293.277486"
+            timestampString = "538195007.438064"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "71"
             endingLineNumber = "71"
-            landmarkName = "tableView(_:cellForRowAt:)"
-            landmarkType = "7">
+            landmarkName = "MyBikesTableViewController"
+            landmarkType = "3">
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
@@ -2481,13 +2481,13 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "Caffinator/MyBikesTableViewController.swift"
-            timestampString = "534405293.27768"
+            timestampString = "538195007.43827"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "72"
             endingLineNumber = "72"
-            landmarkName = "tableView(_:cellForRowAt:)"
-            landmarkType = "7">
+            landmarkName = "MyBikesTableViewController"
+            landmarkType = "3">
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
@@ -2497,12 +2497,12 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "Caffinator/MyBikesTableViewController.swift"
-            timestampString = "534405293.277874"
+            timestampString = "538195007.438475"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "73"
             endingLineNumber = "73"
-            landmarkName = "tableView(_:cellForRowAt:)"
+            landmarkName = "numberOfSections(in:)"
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
@@ -2513,13 +2513,13 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "Caffinator/MyBikesTableViewController.swift"
-            timestampString = "534405293.278069"
+            timestampString = "538195007.438683"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "65"
             endingLineNumber = "65"
-            landmarkName = "tableView(_:cellForRowAt:)"
-            landmarkType = "7">
+            landmarkName = "MyBikesTableViewController"
+            landmarkType = "3">
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
@@ -4161,13 +4161,45 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "Caffinator/View/Auth/SignUpViewController.swift"
-            timestampString = "538189201.376323"
+            timestampString = "538199223.315032"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "65"
             endingLineNumber = "65"
-            landmarkName = "SignUpViewController"
-            landmarkType = "3">
+            landmarkName = "btnFacebookLogic(_:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Caffinator.SignUpViewController.btnFacebookLogic(__ObjC.UIButton) -&gt; ()"
+                  moduleName = "Caffinator"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/saurvasil/Dropbox/Classes/Fall17/CIS195/Caffinator/Caffinator/View/Auth/SignUpViewController.swift"
+                  timestampString = "538199223.5677609"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "66"
+                  endingLineNumber = "66"
+                  offsetFromSymbolStart = "224">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (FacebookLogin.LoginResult) -&gt; () in Caffinator.SignUpViewController.btnFacebookLogic(__ObjC.UIButton) -&gt; ()"
+                  moduleName = "Caffinator"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/saurvasil/Dropbox/Classes/Fall17/CIS195/Caffinator/Caffinator/View/Auth/SignUpViewController.swift"
+                  timestampString = "538199223.570148"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "66"
+                  endingLineNumber = "66"
+                  offsetFromSymbolStart = "2392">
+               </Location>
+            </Locations>
          </BreakpointContent>
       </BreakpointProxy>
    </Breakpoints>
