@@ -1,10 +1,4 @@
-//
-//  Member.swift
-//  Caffinator
-//
-//  Created by Saur Vasil on 12/2/17.
-//  Copyright © 2017 cis195. All rights reserved.
-//
+
 
 import Foundation
 import UIKit

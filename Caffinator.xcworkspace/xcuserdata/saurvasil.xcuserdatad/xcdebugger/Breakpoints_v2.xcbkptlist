@@ -4161,7 +4161,7 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "Caffinator/View/Auth/SignUpViewController.swift"
-            timestampString = "538204105.227766"
+            timestampString = "538209653.238058"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "65"
@@ -4177,7 +4177,7 @@
                   moduleName = "Caffinator"
                   usesParentBreakpointCondition = "Yes"
                   urlString = "file:///Users/saurvasil/Dropbox/Classes/Fall17/CIS195/Caffinator/Caffinator/View/Auth/SignUpViewController.swift"
-                  timestampString = "538204105.458662"
+                  timestampString = "538208445.916546"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
                   startingLineNumber = "66"
@@ -4192,7 +4192,7 @@
                   moduleName = "Caffinator"
                   usesParentBreakpointCondition = "Yes"
                   urlString = "file:///Users/saurvasil/Dropbox/Classes/Fall17/CIS195/Caffinator/Caffinator/View/Auth/SignUpViewController.swift"
-                  timestampString = "538204105.460687"
+                  timestampString = "538208445.918407"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
                   startingLineNumber = "66"
@@ -4200,6 +4200,38 @@
                   offsetFromSymbolStart = "2392">
                </Location>
             </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Caffinator/View/Auth/PersonalInfoViewController.swift"
+            timestampString = "538209653.238403"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "28"
+            endingLineNumber = "28"
+            landmarkName = "viewDidLoad()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Caffinator/View/Auth/PersonalInfoViewController.swift"
+            timestampString = "538209653.238922"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "35"
+            endingLineNumber = "35"
+            landmarkName = "viewDidLoad()"
+            landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
    </Breakpoints>

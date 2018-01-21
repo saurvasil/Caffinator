@@ -1,9 +1,4 @@
-//
-//  AccountViewController.swift
-//  
-//
-//  Created by Saur Vasil on 1/20/18.
-//
+
 
 import UIKit
 

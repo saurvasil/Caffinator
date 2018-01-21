@@ -1,10 +1,4 @@
-//
-//  MyBikesCollectionViewController.swift
-//  Caffinator
-//
-//  Created by Saur Vasil on 1/20/18.
-//  Copyright © 2018 cis195. All rights reserved.
-//
+
 
 import UIKit
 
