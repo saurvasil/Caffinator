@@ -35,6 +35,7 @@
 		E7ED9995D6EBA72A97EC246F /* Pods_Caffinator.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0084E58DFE3F34AE46651E35 /* Pods_Caffinator.framework */; };
 		EB836319201450400033DD53 /* blur.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = EB8363182014503D0033DD53 /* blur.jpeg */; };
 		EB83631B201451570033DD53 /* profile.png in Resources */ = {isa = PBXBuildFile; fileRef = EB83631A201451540033DD53 /* profile.png */; };
+		EB83631D201457390033DD53 /* bikePic.png in Resources */ = {isa = PBXBuildFile; fileRef = EB83631C201457350033DD53 /* bikePic.png */; };
 		EB87E0C42013E65300761983 /* gifPlayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB87E0C32013E65300761983 /* gifPlayer.swift */; };
 /* End PBXBuildFile section */
 
@@ -70,6 +71,7 @@
 		98EBEFC77A51FCFC1B65696F /* Pods-Caffinator.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Caffinator.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Caffinator/Pods-Caffinator.debug.xcconfig"; sourceTree = "<group>"; };
 		EB8363182014503D0033DD53 /* blur.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = blur.jpeg; sourceTree = "<group>"; };
 		EB83631A201451540033DD53 /* profile.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = profile.png; sourceTree = "<group>"; };
+		EB83631C201457350033DD53 /* bikePic.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bikePic.png; sourceTree = "<group>"; };
 		EB87E0C32013E65300761983 /* gifPlayer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = gifPlayer.swift; sourceTree = "<group>"; };
 		F79B05CCF8B5369D74CB9727 /* Pods-Caffinator.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Caffinator.release.xcconfig"; path = "Pods/Target Support Files/Pods-Caffinator/Pods-Caffinator.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -195,6 +197,7 @@
 				54F0684A1FD6FA5700C9083B /* MyBikesTableViewController.swift */,
 				5435DDAA2013CD9A00E887F9 /* ReservationsCollectionViewController.swift */,
 				540C27362014196200D7F376 /* Screen Shot 2018-01-20 at 7.41.04 PM.png */,
+				EB83631C201457350033DD53 /* bikePic.png */,
 				EB8363182014503D0033DD53 /* blur.jpeg */,
 				EB83631A201451540033DD53 /* profile.png */,
 				98A1B0101FB435BB0086F0DC /* Assets.xcassets */,
@@ -281,6 +284,7 @@
 				98A1B0111FB435BB0086F0DC /* Assets.xcassets in Resources */,
 				540C27372014196200D7F376 /* Screen Shot 2018-01-20 at 7.41.04 PM.png in Resources */,
 				EB836319201450400033DD53 /* blur.jpeg in Resources */,
+				EB83631D201457390033DD53 /* bikePic.png in Resources */,
 				540C273B201433C800D7F376 /* giphy-2.gif in Resources */,
 				98A1B00F1FB435BB0086F0DC /* Main.storyboard in Resources */,
 				54C8764D20143429002A513E /* GoogleService-Info.plist in Resources */,
