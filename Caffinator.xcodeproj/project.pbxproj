@@ -172,7 +172,7 @@
 		98A1B0081FB435BB0086F0DC /* Caffinator */ = {
 			isa = PBXGroup;
 			children = (
-				EB87E0C02013E29500761983 /* Pictures */,
+				EB87E0D5201432E400761983 /* Pictures */,
 				54C2F7B21FDAEEB900CCDD67 /* Controller */,
 				54C2F7B11FDAEE9D00CCDD67 /* Model */,
 				54C2F7B01FDAEE6800CCDD67 /* View */,
@@ -252,7 +252,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EB87E0D42014309B00761983 /* giphy-2.gif in Resources */,
+				EB87E0D92014331200761983 /* giphy-2.gif in Resources */,
 				98A1B0141FB435BB0086F0DC /* LaunchScreen.storyboard in Resources */,
 				98A1B0111FB435BB0086F0DC /* Assets.xcassets in Resources */,
 				540C27372014196200D7F376 /* Screen Shot 2018-01-20 at 7.41.04 PM.png in Resources */,
